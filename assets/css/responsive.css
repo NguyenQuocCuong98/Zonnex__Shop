@@ -1,0 +1,283 @@
+/* Mobile & Table */
+@media (max-width: 1023px) {
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .show-on-mobile-tablet {
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .nav__bar-btn{
+        display: block;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .show-on-tablet {
+        display: block;
+    }
+    .home-product {
+        margin-left: 65px;
+    }
+
+    .product-item {
+    line-height: 4rem;
+    display: inline-block;
+    transform: translateX(30%);
+    }
+
+    .product-item h3 {
+        margin-bottom: 25px;
+    }
+
+    .header-icon {
+        margin-right: -35px;
+    }
+
+    .book-king__name {
+      padding: 0 5px;
+    }
+
+    .book-king__list{
+        margin-left: 15px;
+    }
+
+     .grid__column-3-m {
+         padding-left: 10px;
+        
+     }
+
+     .footer-item {
+         margin-bottom: 45px;
+     }
+
+     .grid__row  {
+        padding-left: 25px;
+        padding-bottom: 50px;
+     }
+
+     .action-primary {
+         right: 100px;
+     }
+
+     .end-footer {
+         display: block;
+         text-align: center;
+     }
+
+     .end-footer__item {
+        padding: 10px 0;
+     }
+}
+
+/* Table hight */
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .text-container {
+        top: 25%;
+    }
+
+    .product-slider {
+        margin-left: 30px;
+    }
+
+    .product-banner__img{
+        width: 50%;
+    }
+
+    .grid__row  {
+        margin-left: 30px;
+    }
+
+    .grid__column-3-m {
+        padding-left: 10px;
+        padding-right: 60%;
+    }
+
+    .grid__column-3-3 {
+        padding-right: 25px;
+    }
+    .footer-item {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu__input {
+        width: 150%;
+    }
+
+    .end-footer {
+        display: block;
+        transform: translateX(-20%);
+        text-align: center;
+    }
+
+    .end-footer__item {
+        padding: 10px 0;
+     }
+
+     .action-primary {
+        transform: translateX(300%);
+    }
+}
+
+/* Tablet - Low */
+@media (min-width: 600px) and (max-width: 800px) {
+   
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    .hide-on-mobile {
+        display: block;
+    }
+
+    .show-on-mobile {
+        display: block;
+    }
+
+    .header-icon {
+        margin-right: -40px;
+    }
+
+    .text-container {
+        top: 35%;
+    }
+
+    .text-box__header {
+        line-height: 60px;
+        font-size: 6.5rem;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .text-box__container {
+        margin: 0;
+        padding-bottom: 50px;
+    }
+     
+    .list-banner {
+        flex-direction: column;
+    }
+
+    .product-item {
+        display: block;
+    }
+
+    .product-list {
+        margin-top: 40px;
+        
+    }
+
+    .product-menu__item {
+        line-height: 3.5rem;
+    }
+    
+    .product-banner__img{
+        width: 100%;
+    }
+
+    .btnproduct {
+        margin-bottom: 100px;
+    }
+
+    .book-king {
+        flex-direction: column;
+    }
+
+    .book-king__list {
+        padding: 10px 10px;
+    }
+
+     .grid__row { 
+        margin-left: 20px;  
+    } 
+
+    .grid__column-3-m {
+       padding: 0 50% 0 15px;
+        
+    }
+
+    .footer-item {
+        margin-bottom: 40px;
+    }
+
+    .footer-menu__input {
+        width: 90%;
+    }
+
+
+    .action-primary {
+        margin-right: -50px;
+    }
+
+    .home-product {
+        margin-left: 5px;
+    }
+
+    .home-product-item__img img {
+        width: 100%;
+    }
+
+    .end-footer {
+       margin: 0;
+        display: block;
+        text-align: center;
+    }
+
+     .end-footer__item {
+       padding: 10px 0;
+    }
+    
+}
+
+@media (max-width: 374px) {
+    .end-footer__name{
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 567px) {
+    .header-search__icon {
+        padding: 0 15px;
+    }
+
+    .header-icon {
+        margin-right: -55px;
+    }
+
+    .content-list__item {
+        margin-left: 20px;
+    }
+
+    .nav__bar-btn {
+        margin-right: 5px;
+    }
+
+    .content-list__item-img {
+        margin-left: -20px;
+    }
+
+    .product-item h3 {
+        line-height: 4rem;
+    }
+
+    .nav__mobile {
+        width: 80% ;
+    }
+}
