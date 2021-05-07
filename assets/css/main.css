@@ -196,7 +196,6 @@ overflow: hidden;
     padding: 0 60px; 
 }
 
-
 .icon__search {
     display: inline-block;
 }
@@ -413,21 +412,10 @@ overflow: hidden;
     display: none;
 }
 
-.header-cart__item:hover .cart {
+.header-cart:hover .cart {
     display: block;
-    
 }
 
-
-
-@keyframes cartGrowth {
-    from {
-        transform: scale(0);
-    }
-    to {
-        transform: scale(1);
-    }
-}
 
 .cart-item {
     font-size: 1.4rem;

@@ -5,10 +5,6 @@
         display: none;
     }
 
-    .show-on-mobile-tablet {
-
-    }
-
     .navbar {
         display: none;
     }
@@ -135,11 +131,6 @@
     }
 }
 
-/* Tablet - Low */
-@media (min-width: 600px) and (max-width: 800px) {
-   
-}
-
 
 /* Mobile */
 @media (max-width: 739px) {
@@ -243,6 +234,11 @@
      .end-footer__item {
        padding: 10px 0;
     }
+
+    .cart {
+        width: 295px;
+        right: 60px;
+    }
     
 }
 
@@ -257,9 +253,7 @@
         padding: 0 15px;
     }
 
-    .header-icon {
-        margin-right: -55px;
-    }
+    
 
     .content-list__item {
         margin-left: 20px;
